@@ -20,18 +20,32 @@ export default function App() {
   return (
     <div id="cyber-root" className="h-screen w-screen bg-black text-white flex items-center justify-center font-sans selection:bg-rose-600 selection:text-white overflow-hidden p-0 m-0 relative">
       
-      {/* Background Looping Video */}
+      {/* Background Looping Video - Desktop */}
       <video
         src="https://res.cloudinary.com/by1cmiq3/video/upload/v1783257310/Seamless_looping_animation_chara__202607051842_jcsvq2.mp4"
         autoPlay
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover pointer-events-none z-0"
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none z-0 hidden md:block"
+      />
+
+      {/* Background Looping Video - Mobile */}
+      <video
+        src="https://res.cloudinary.com/by1cmiq3/video/upload/v1784125218/Character_idle_animation_cyberpu__202607151941_pfvhne.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover pointer-events-none z-0 block md:hidden"
       />
 
       {/* Subtle vignette/dark overlay over video to ensure text is fully readable */}
-      <div className="absolute inset-0 bg-gradient-to-tr from-black/90 via-black/50 to-black/80 pointer-events-none z-10" />
+      <div className={`absolute inset-0 bg-gradient-to-tr transition-all duration-500 pointer-events-none z-10 ${
+        currentPage === "hero" 
+          ? "from-black/30 via-transparent to-black/30" 
+          : "from-black/90 via-black/50 to-black/80"
+      }`} />
 
       {/* Hexagonal overlay pattern for futuristic cyber look */}
       <div className="absolute inset-0 bg-[radial-gradient(#f43f5e_0.5px,transparent_0.5px)] [background-size:16px_16px] opacity-10 pointer-events-none z-10" />
