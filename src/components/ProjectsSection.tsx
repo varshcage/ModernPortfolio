@@ -39,7 +39,7 @@ export default function ProjectsSection({ onNavigate, onOpenModal }: ProjectsSec
       featured: true,
       tags: ["React", "TypeScript", "Python", "Flask"],
       image: "linear-gradient(135deg, #10b981 0%, #047857 100%)",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/varshcage/AgriProject",
       liveUrl: "#"
     },
     {
@@ -53,8 +53,7 @@ export default function ProjectsSection({ onNavigate, onOpenModal }: ProjectsSec
       featured: true,
       tags: ["React", "TypeScript", "Tailwind CSS", "GitHub"],
       image: "linear-gradient(135deg, #f43f5e 0%, #be185d 100%)",
-      githubUrl: "https://github.com",
-      liveUrl: "#"
+
     },
     {
       id: 3,
@@ -67,8 +66,7 @@ export default function ProjectsSection({ onNavigate, onOpenModal }: ProjectsSec
       featured: false,
       tags: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
       image: "linear-gradient(135deg, #eab308 0%, #ca8a04 100%)",
-      githubUrl: "https://github.com",
-      liveUrl: "#"
+
     },
     {
       id: 4,
@@ -81,7 +79,7 @@ export default function ProjectsSection({ onNavigate, onOpenModal }: ProjectsSec
       featured: false,
       tags: ["Java", "MySQL", "Tailwind CSS", "Git"],
       image: "linear-gradient(135deg, #a855f7 0%, #7e22ce 100%)",
-      githubUrl: "https://github.com",
+      githubUrl: "https://github.com/varshcage/CSEProj",
       liveUrl: "#"
     },
     {
@@ -95,8 +93,6 @@ export default function ProjectsSection({ onNavigate, onOpenModal }: ProjectsSec
       featured: false,
       tags: ["Java", "GitHub"],
       image: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)",
-      githubUrl: "https://github.com",
-      liveUrl: "#"
     },
     {
       id: 6,
@@ -109,8 +105,22 @@ export default function ProjectsSection({ onNavigate, onOpenModal }: ProjectsSec
       featured: false,
       tags: ["Figma", "Illustrator", "Photoshop", "Canva"],
       image: "linear-gradient(135deg, #ec4899 0%, #be185d 100%)",
-      liveUrl: "#"
-    }
+      liveUrl: "https://www.polekemarket.com/"
+    },
+        {
+      id: 7,
+      title: "MediCare",
+      category: "Full-Stack Hospital Management Website",
+      tagline: "Healthcare-Focused Web Application",
+      description: "A healthcare-focused web application for managing hospital operations, patient records, and medical workflows.",
+      impact: "Integrated frontend design with backend functionality for a seamless healthcare management experience.",
+      timeline: "Web application",
+      featured: false,
+      tags: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+      image: "linear-gradient(135deg, #eab308 0%, #ca8a04 100%)",
+      githubUrl: "https://github.com/varshcage/MedicCare"
+    },
+    
   ];
 
   const filteredProjects = projects.filter((p) => {
