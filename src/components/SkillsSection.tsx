@@ -31,7 +31,7 @@ const techGroups: TechGroup[] = [
     items: [
       { name: 'React', slug: 'react', note: 'Component architecture', proficiency: 92 },
       { name: 'TypeScript', slug: 'typescript', note: 'Strictly typed applications', proficiency: 90 },
-      { name: 'JavaScript', slug: 'javascript', note: 'High performance script logic', proficiency: 95 },
+      { name: 'JavaScript', slug: 'javascript', note: 'High performance script logic', proficiency:75 },
       { name: 'HTML5', slug: 'html5', note: 'Semantic accessibility structures', proficiency: 98 },
       { name: 'CSS3', slug: 'css', note: 'Custom grids & layouts', proficiency: 95 },
       { name: 'Tailwind CSS', slug: 'tailwind-css', note: 'Utility-first utility libraries', proficiency: 96 },
@@ -42,10 +42,10 @@ const techGroups: TechGroup[] = [
     summary: 'Languages and framework runtimes used to construct custom backend servers, APIs, and microservices.',
     icon: Layers,
     items: [
-      { name: 'Java', slug: 'java', note: 'Object-oriented core logic', proficiency: 85 },
-      { name: 'Python', slug: 'python', note: 'Script automation & ML tooling', proficiency: 88 },
-      { name: 'PHP', slug: 'php', note: 'Dynamic server site delivery', proficiency: 82 },
-      { name: 'Flask', slug: 'flask', note: 'Micro-API service routes', proficiency: 80, invertInDark: true },
+      { name: 'Java', slug: 'java', note: 'Object-oriented core logic', proficiency: 50 },
+      { name: 'Python', slug: 'python', note: 'Script automation & ML tooling', proficiency: 48 },
+      { name: 'PHP', slug: 'php', note: 'Dynamic server site delivery', proficiency: 50 },
+      { name: 'Flask', slug: 'flask', note: 'Micro-API service routes', proficiency: 30, invertInDark: true },
       { name: 'C++', slug: 'cplusplus', note: 'Performance computing fundamentals', proficiency: 78 },
     ],
   },
