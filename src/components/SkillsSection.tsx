@@ -59,6 +59,7 @@ const techGroups: TechGroup[] = [
       { name: 'Git', slug: 'git', note: 'Version state control tracking', proficiency: 92 },
       { name: 'GitHub', slug: 'github', note: 'Cloud continuous integration', proficiency: 94, invertInDark: true },
       { name: 'Postman', slug: 'postman', note: 'API communication unit testing', proficiency: 90 },
+      { name: 'Swagger', slug: 'swagger', note: 'API documentation & testing', proficiency: 98},
     ],
   },
   {
