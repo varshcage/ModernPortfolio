@@ -46,7 +46,7 @@ const techGroups: TechGroup[] = [
       { name: 'Python', slug: 'python', note: 'Script automation & ML tooling', proficiency: 48 },
       { name: 'PHP', slug: 'php', note: 'Dynamic server site delivery', proficiency: 50 },
       { name: 'Flask', slug: 'flask', note: 'Micro-API service routes', proficiency: 30, invertInDark: true },
-      { name: 'C++', slug: 'cplusplus', note: 'Performance computing fundamentals', proficiency: 78 },
+      { name: 'C++', slug: 'cplusplus', note: 'Performance computing fundamentals', proficiency:88 },
     ],
   },
   {
